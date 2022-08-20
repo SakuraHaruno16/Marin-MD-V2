@@ -11,14 +11,14 @@ let anu = `
 وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 
 _wa'alaikumussalam wr.wb._
-Halooo👋`
+Halooo ${name} Saya Adalah GojoBot Sebuah Bot WhatsApp Mau Melihat Fitur GojoBot? Silahkan Ketik .menu Untuk Mengakses Fitur GojoBot`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
            jpegThumbnail: fs.readFileSync('./media/waalaikumusalam.jpg') }, 
-           hydratedFooterText: `Stay halal`,
+           hydratedFooterText: `©GojoBot`,
            hydratedButtons: [{
              urlButton: {
                displayText: '📍instagram',
