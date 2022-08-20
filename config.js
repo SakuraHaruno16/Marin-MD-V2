@@ -68,7 +68,7 @@ global.author = 'MarinMd'
 
 
 
-ig: senpai_chan_gemoy`
+ig: 'senpai_chan_gemoy'
 global.wm = 'Ｍａｒｉｎ－ＭＤ'
 global.watermark = wm
 global.botdate = '╭──────────═┅═─────────\n│◪ ${time}\n┊◪ ${week} ${date}\n╰──────────═┅═─────────'
