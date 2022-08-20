@@ -11,7 +11,7 @@ let anu = `
 وَعَلَيْكُمْ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ
 
 _wa'alaikumussalam wr.wb._
-Halooo ${name} Saya Adalah GojoBot Sebuah Bot WhatsApp Mau Melihat Fitur GojoBot? Silahkan Ketik .menu Untuk Mengakses Fitur GojoBot`
+Halooo ${name}👋 Saya Adalah GojoBot Sebuah Bot WhatsApp Yang Akan Membantu Anda Membuat Sticker Dan Dll, Mau Melihat Fitur GojoBot? Silahkan Ketik .menu Untuk Mengakses Fitur GojoBot`
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
      templateMessage: {
          hydratedTemplate: {
