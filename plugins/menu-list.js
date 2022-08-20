@@ -282,27 +282,10 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
 
 Bot Aktif Selama: _*${uptime}*_
 Total Pengguna: _*${Object.keys(global.db.data.users).length}*_ 
-Mode : *${global.opts['self'] ? 'Self' : 'publik'}*
-
-
-❏ 𝙏𝙄𝙈𝙀
-» Wib : ${time}
-» Tanggal : ${week} ${weton} ${date}
-
-❏ 𝙏𝘼𝙃𝙐𝙉 𝘽𝘼𝙍𝙐
-_${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik_
-
-❏ 𝙍𝘼𝙈𝘼𝘿𝘼𝙉
-_${harii} Hari ${jamm} Jam ${menitt} Menit ${detikk} Detik_
-
-❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
-_${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
-
-Note: Jika Fitur Eror Harap Di Maklumin
-`,
+Mode : *${global.opts['self'] ? 'Self' : 'publik'}*`,
             buttonText: 'LIST MENU',
             listType: 1,
-            footerText: "Join Group Bot\nhttps://chat.whatsapp.com/DYbwxUvMEzTEsOuYQnBDm2\n>‿‿<",
+            footerText: "© GojoBot",
             mtype: 'listMessage',
             sections: [
               {
