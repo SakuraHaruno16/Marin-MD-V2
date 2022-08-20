@@ -1,1 +1,1 @@
-worker: node . --server "session.data.json"
+worker: npm install && npm i -g pm2 && pm2 start main.js && pm2 save && pm2 logs
